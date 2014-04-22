@@ -21,6 +21,13 @@
 		BE743BBE19014B980068D545 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE743BA019014B970068D545 /* UIKit.framework */; };
 		BE743BC619014B980068D545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE743BC419014B980068D545 /* InfoPlist.strings */; };
 		BE743BC819014B980068D545 /* YouTube_API_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE743BC719014B980068D545 /* YouTube_API_DemoTests.m */; };
+		BEB1C08319065D8000430A25 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB1C08219065D8000430A25 /* Security.framework */; };
+		BEB1C08519065D8800430A25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB1C08419065D8800430A25 /* SystemConfiguration.framework */; };
+		BEB1C09019065E9700430A25 /* GTLYouTube_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1C08F19065E9700430A25 /* GTLYouTube_Sources.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BEB1C09B19065F6E00430A25 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB1C09A19065F6E00430A25 /* GTMOAuth2ViewTouch.xib */; };
+		BEB1C0A11906607D00430A25 /* GTLCommon_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1C09F1906607D00430A25 /* GTLCommon_Sources.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BEB1C0A21906607D00430A25 /* GTLNetworking_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1C0A01906607D00430A25 /* GTLNetworking_Sources.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BEB1C0A51906628500430A25 /* YouTubeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1C0A41906628500430A25 /* YouTubeHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,14 @@
 		BE743BC319014B980068D545 /* YouTube-API-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YouTube-API-DemoTests-Info.plist"; sourceTree = "<group>"; };
 		BE743BC519014B980068D545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE743BC719014B980068D545 /* YouTube_API_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouTube_API_DemoTests.m; sourceTree = "<group>"; };
+		BEB1C08219065D8000430A25 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BEB1C08419065D8800430A25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BEB1C08F19065E9700430A25 /* GTLYouTube_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLYouTube_Sources.m; path = "../../Resources/google-api-objectivec-client-read-only/Source/Services/YouTube/Generated/GTLYouTube_Sources.m"; sourceTree = "<group>"; };
+		BEB1C09A19065F6E00430A25 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		BEB1C09F1906607D00430A25 /* GTLCommon_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLCommon_Sources.m; path = "../../Resources/google-api-objectivec-client-read-only/Source/GTLCommon_Sources.m"; sourceTree = "<group>"; };
+		BEB1C0A01906607D00430A25 /* GTLNetworking_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLNetworking_Sources.m; path = "../../Resources/google-api-objectivec-client-read-only/Source/GTLNetworking_Sources.m"; sourceTree = "<group>"; };
+		BEB1C0A31906628500430A25 /* YouTubeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeHelper.h; sourceTree = "<group>"; };
+		BEB1C0A41906628500430A25 /* YouTubeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB1C08519065D8800430A25 /* SystemConfiguration.framework in Frameworks */,
+				BEB1C08319065D8000430A25 /* Security.framework in Frameworks */,
 				BE743B9F19014B970068D545 /* CoreGraphics.framework in Frameworks */,
 				BE743BA119014B970068D545 /* UIKit.framework in Frameworks */,
 				BE743B9D19014B970068D545 /* Foundation.framework in Frameworks */,
@@ -101,6 +118,8 @@
 		BE743B9B19014B970068D545 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEB1C08419065D8800430A25 /* SystemConfiguration.framework */,
+				BEB1C08219065D8000430A25 /* Security.framework */,
 				BE743B9C19014B970068D545 /* Foundation.framework */,
 				BE743B9E19014B970068D545 /* CoreGraphics.framework */,
 				BE743BA019014B970068D545 /* UIKit.framework */,
@@ -112,6 +131,8 @@
 		BE743BA219014B970068D545 /* YouTube-API-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				BEB1C0A6190688D800430A25 /* YouTubeHelper */,
+				BEB1C076190652C000430A25 /* Google-API-Stuff */,
 				BE743BAB19014B970068D545 /* AppDelegate.h */,
 				BE743BAC19014B970068D545 /* AppDelegate.m */,
 				BE743BAE19014B970068D545 /* Main.storyboard */,
@@ -150,6 +171,26 @@
 				BE743BC419014B980068D545 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEB1C076190652C000430A25 /* Google-API-Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1C09F1906607D00430A25 /* GTLCommon_Sources.m */,
+				BEB1C0A01906607D00430A25 /* GTLNetworking_Sources.m */,
+				BEB1C09A19065F6E00430A25 /* GTMOAuth2ViewTouch.xib */,
+				BEB1C08F19065E9700430A25 /* GTLYouTube_Sources.m */,
+			);
+			name = "Google-API-Stuff";
+			sourceTree = "<group>";
+		};
+		BEB1C0A6190688D800430A25 /* YouTubeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1C0A31906628500430A25 /* YouTubeHelper.h */,
+				BEB1C0A41906628500430A25 /* YouTubeHelper.m */,
+			);
+			name = YouTubeHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB1C09B19065F6E00430A25 /* GTMOAuth2ViewTouch.xib in Resources */,
 				BE743BB519014B970068D545 /* Images.xcassets in Resources */,
 				BE743BA719014B970068D545 /* InfoPlist.strings in Resources */,
 				BE743BB019014B970068D545 /* Main.storyboard in Resources */,
@@ -251,7 +293,11 @@
 			files = (
 				BE743BB319014B970068D545 /* ViewController.m in Sources */,
 				BE743BAD19014B970068D545 /* AppDelegate.m in Sources */,
+				BEB1C0A51906628500430A25 /* YouTubeHelper.m in Sources */,
 				BE743BA919014B970068D545 /* main.m in Sources */,
+				BEB1C0A21906607D00430A25 /* GTLNetworking_Sources.m in Sources */,
+				BEB1C09019065E9700430A25 /* GTLYouTube_Sources.m in Sources */,
+				BEB1C0A11906607D00430A25 /* GTLCommon_Sources.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +379,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/Utilities",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/Objects",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/Services/YouTube/Generated",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/OAuth2/Touch",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/OAuth2",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/HTTPFetcher",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -365,6 +422,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/Utilities",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/Objects",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/Services/YouTube/Generated",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/OAuth2/Touch",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/OAuth2",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source/HTTPFetcher",
+					"/Users/nirbhay/Documents/Development/Personal/Resources/google-api-objectivec-client-read-only/Source",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -379,6 +447,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YouTube-API-Demo/YouTube-API-Demo-Prefix.pch";
 				INFOPLIST_FILE = "YouTube-API-Demo/YouTube-API-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +461,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YouTube-API-Demo/YouTube-API-Demo-Prefix.pch";
 				INFOPLIST_FILE = "YouTube-API-Demo/YouTube-API-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +526,7 @@
 				BE743BCD19014B980068D545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE743BCE19014B980068D545 /* Build configuration list for PBXNativeTarget "YouTube-API-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +535,7 @@
 				BE743BD019014B980068D545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
