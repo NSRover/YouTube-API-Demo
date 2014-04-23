@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E70D46C-1182-4A2B-A27B-705CCBE93774</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YouTube-API-Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5C845916-97AE-41C8-9DD5-EC6D3BE0A4B5</key>
+		<string>http://google-api-objectivec-client.googlecode.com/svn/trunk</string>
+		<key>E3A1165D-F7D1-4BFF-9C14-A1EC91B91637</key>
+		<string>https://github.com/nirbhayg/YouTube-API-Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YouTube-API-Demo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5C845916-97AE-41C8-9DD5-EC6D3BE0A4B5</key>
+		<string>../../../Resources/google-api-objectivec-client-read-only</string>
+		<key>E3A1165D-F7D1-4BFF-9C14-A1EC91B91637</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>5C845916-97AE-41C8-9DD5-EC6D3BE0A4B5</key>
+		<string>http://google-api-objectivec-client.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nirbhayg/YouTube-API-Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3A1165D-F7D1-4BFF-9C14-A1EC91B91637</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5C845916-97AE-41C8-9DD5-EC6D3BE0A4B5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>google-api-objectivec-client-read-only</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3A1165D-F7D1-4BFF-9C14-A1EC91B91637</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YouTube-API-Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
