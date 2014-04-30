@@ -313,7 +313,7 @@ static NSString* kKeychainItemName = @"YoutubeHelper";
                                         NSLog(@"Video Uploaded : %@", uploadedVideo.snippet.title);
                         
                                     } else {
-                                        NSLog(@"Video Upload failed : %@", uploadedVideo.snippet.title);
+                                        NSLog(@"Video Upload failed : %@", [error description]);
                                     }
                                 }];
         
